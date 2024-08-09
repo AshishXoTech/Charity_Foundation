@@ -1,0 +1,9 @@
+[package]
+name = "Charity"
+version = "0.1.0"
+
+[addresses]
+hello_blockchain = "0x3c1f89e6801cd49fba489c684886fdd86898a255c17e7f88691252d6303fd0f0"
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework/", rev ="testnet" }
